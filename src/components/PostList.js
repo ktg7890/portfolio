@@ -34,7 +34,7 @@ const PostList = () => {
   }, []);
 
   useEffect(() => {
-    loadPosts(); // 페이지 번호 변경 시 데이터 로드
+    loadPosts();
   }, [page]);
 
   return (
