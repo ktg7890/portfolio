@@ -38,9 +38,9 @@ const PostList = () => {
   }, [page]);
 
   return (
-    <div>
+    <div className="post-list">
       {posts.map((post) => (
-        <div key={post.id}>
+        <div key={post.id} className="post-item">
           <h3>{post.title}</h3>
           <p>{post.body}</p>
         </div>
